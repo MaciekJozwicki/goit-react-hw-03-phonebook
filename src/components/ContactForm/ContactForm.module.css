@@ -1,0 +1,55 @@
+.formEl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.formEl__label {
+  margin-bottom: 10px;
+}
+
+.formEl__input {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+}
+
+.formEl__input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: none;
+  letter-spacing: 0em;
+}
+
+.formEl__textarea {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+}
+
+.formEl__textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: none;
+  letter-spacing: 0em;
+}
+
+.formEl__button {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
