@@ -16,7 +16,7 @@ class ContactForm extends Component {
   addContact = e => {
     e.preventDefault();
 
-    if (this.props.findByName(this.state.name).length > 1) {
+    if (this.props.findByName(this.state.name).length > 0) {
       alert('This name is taken');
       return;
     }

@@ -53,7 +53,7 @@ class App extends Component {
   componentDidMount() {
     this.load();
   }
-  componentDidUpdate(prevState) {
+  componentDidUpdate(prevProps, prevState) {
     this.setLocalStorageArray(prevState);
     this.deleteLocalStorageArray();
   }
